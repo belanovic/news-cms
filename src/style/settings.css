@@ -348,14 +348,14 @@
     border: 10px solid green;
 }
 
-/* template-manual */
+/* template-manual custom-manual*/
 
-.template-manual {
+.template-manual, .custom-manual {
 
     color: white;
     text-align: center;
  }
- .template-manual-btn {
+ .template-manual-btn, .custom-manual-btn {
      width: 300px;
      margin-bottom: 1em;
      margin-left: auto;
@@ -372,12 +372,12 @@
      transition: background var(--transition-duration-background);
      border: none;
  }
- .template-manual-text {
+ .template-manual-text, .custom-manual-text {
      width: 300px;
      margin: auto; 
      font-size: 1.5rem;
  }
- .template-manual-btn:hover {
+ .template-manual-btn:hover, .custom-manual-btn:hover {
      cursor: pointer;
  }
  

@@ -41,7 +41,7 @@ export default function TextEditor({text, setText, initialText}) {
            'removeformat | help' + 
            'media' + 
            'insertfile udo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image', */
-           plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
+           plugins: 'preview anchor code autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount linkchecker',
            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
            /* content_css: 'my-styles.css' */
            content_style: 'img { width: 100%}' +
