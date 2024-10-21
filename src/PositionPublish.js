@@ -42,7 +42,10 @@ export default function PositionPublish({ frontpageNews, setPosition,
 
     return (
         <div className="position-publish">
-            <div className = "publish">
+            <div className = "publish"
+                style={{textAlign: 'center'}}
+            
+            >
                 <label 
                     htmlFor="publish-checkbox"
                     className="publish-label"
@@ -59,16 +62,22 @@ export default function PositionPublish({ frontpageNews, setPosition,
             </div>
 
             <div className = "position">
-            <input
-                type="number"
-                min="0"
-                max="100"
-                className="position-input"
-                onChange={handleNumber}
-                value={position}
+      
+                
+            <div
                 style={{ display: showPosition }}
-                disabled={frontpageNews? false : true}
-            ></input>
+            >
+                <label>Pozicija</label>
+                <input
+                    type="number"
+                    min="0"
+                    max="100"
+                    className="position-input"
+                    onChange={handleNumber}
+                    value={position}
+                    disabled={frontpageNews? false : true}
+                ></input>
+            </div>
             </div>
         </div>
     )

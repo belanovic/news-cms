@@ -574,7 +574,6 @@ export default function Settings() {
                     :
                     ''
                     }
-                    
                 </div>
             </div>
             <div className='design'>
@@ -589,11 +588,11 @@ export default function Settings() {
                         <ul style={{textAlign: 'left'}}>
                             
                             <p>U ovom delu možete podesiti 14 custom sekcija, boje, border, padding, možete staviti naslov sekcije.</p> 
-                            <p>Trenutno su podešene i na naslovnoj strani prikazane od nulte do devete</p> 
-                            <p>Najvažnije je da odredite koje će vesti biti u sekciji. Najpre odredite redni broj prve vesti (Pozicija prve vesti), a zatim ukupan broj vesti (Broj vesti u custom sekciji) koji će se, počev od rednog broja prve, naći u sekciji. Listu svih vesti imate u delu sajta gde se podešava Naslovna strana.</p>
+                            <p>Trenutno su podešene i na naslovnoj strani prikazane custom sekcije od nulte do devete</p> 
+                            <p>Najvažnije je da odredite koje će vesti biti u sekciji. Najpre odredite redni broj prve vesti (Pozicija prve vesti), a zatim ukupan broj vesti (Broj vesti u custom sekciji) koji će se, počev od rednog broja prve, naći u sekciji. Listu svih vesti sa rednim brojevima imate u delu sajta gde se podešava Naslovna strana.</p>
                             <p>Vrlo je važno da se raspon vesti koji će se naći u različitim sekcijama ne preklapa, tj. da se iste vesti ne nadju u više sekcija.</p>
                             <p>Ako custom sekcija ima više od 5 kartica, one će biti u dva ili više redova</p>
-                            <p>U templejtu, na primer, možete poredjati više custom sekcija jednu pored druge, da bi tako spojene izgledale kao jedna veća. To je slučaj sa sekcijama Biznis i Oliimpijske igre 2024, koje se zapravo sastoje iz 3 custom sekcije, od kojih samo prva ima naslov</p>
+                            <p>U templejtu možete poredjati više custom sekcija jednu pored druge, da bi tako spojene izgledale kao jedna veća. To je slučaj sa sekcijama Biznis i Oliimpijske igre 2024, koje se zapravo sastoje iz 3 custom sekcije, od kojih samo prva ima naslov</p>
                             <p>Live preview custom sekcije možete videti ispod dela sa opcijama</p>
                             <p><strong>Napomena: </strong>Prilikom "skakanja" sa jedne custom sekcije na drugu, promene koje ste napravili se neće obrisati. Brišu se tek ako učitate celu stranicu Podešavanja ponovo ili naravno ako idete na opciju Default. </p>
 
